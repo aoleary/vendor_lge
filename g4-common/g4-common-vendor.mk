@@ -155,6 +155,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib/hw/activity_recognition.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/activity_recognition.msm8992.so \
     vendor/lge/g4-common/proprietary/vendor/lib/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/flp.default.so \
     vendor/lge/g4-common/proprietary/vendor/lib/hw/gatekeeper.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.msm8992.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/hw/gps.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.msm8992.so \
     vendor/lge/g4-common/proprietary/vendor/lib/lib-dplmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-dplmedia.so \
     vendor/lge/g4-common/proprietary/vendor/lib/lib-ims-rcscmjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-ims-rcscmjni.so \
     vendor/lge/g4-common/proprietary/vendor/lib/lib-imsSDP.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsSDP.so \
@@ -615,6 +616,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib64/hw/activity_recognition.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.msm8992.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/flp.default.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/hw/gatekeeper.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8992.so \
+    vendor/lge/g4-common/proprietary/vendor/lib64/hw/gps.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.msm8992.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/lib-dplmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-dplmedia.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/lib-ims-rcscmjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-ims-rcscmjni.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/lib-imsSDP.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsSDP.so \
