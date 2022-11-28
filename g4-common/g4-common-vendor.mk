@@ -55,9 +55,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/framework/com.quicinc.cne.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.jar \
     vendor/lge/g4-common/proprietary/lib/hw/lgkm.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/lgkm.default.so \
     vendor/lge/g4-common/proprietary/lib/hw/lgkm.msm8992.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/lgkm.msm8992.so \
-    vendor/lge/g4-common/proprietary/lib/hw/sensors.msm8992.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensors.msm8992.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/hw/sensors.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.msm8992.so \
     vendor/lge/g4-common/proprietary/lib/hw/wbc_hal.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/wbc_hal.default.so \
-    vendor/lge/g4-common/proprietary/lib/hw/sensors.hal.tof.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensors.hal.tof.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/hw/sensors.hal.tof.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.hal.tof.so \
     vendor/lge/g4-common/proprietary/lib/soundfx/libqcomvoiceprocessingdescriptors.so:$(TARGET_COPY_OUT_SYSTEM)/lib/soundfx/libqcomvoiceprocessingdescriptors.so \
     vendor/lge/g4-common/proprietary/lib/libVDBase.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libVDBase.so \
     vendor/lge/g4-common/proprietary/lib/libVDLowLightAPI.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libVDLowLightAPI.so \
@@ -85,7 +85,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib64/libsoftkeymaster.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsoftkeymaster.so \
     vendor/lge/g4-common/proprietary/lib64/hw/lgkm.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/lgkm.default.so \
     vendor/lge/g4-common/proprietary/lib64/hw/lgkm.msm8992.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/lgkm.msm8992.so \
-    vendor/lge/g4-common/proprietary/lib64/hw/sensors.msm8992.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/sensors.msm8992.so \
+    vendor/lge/g4-common/proprietary/vendor/lib64/hw/sensors.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.msm8992.so \
     vendor/lge/g4-common/proprietary/lib64/hw/wbc_hal.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/wbc_hal.default.so \
     vendor/lge/g4-common/proprietary/lib64/liblgkm.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liblgkm.so \
     vendor/lge/g4-common/proprietary/lib64/liblgmabl.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liblgmabl.so \
