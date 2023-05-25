@@ -132,11 +132,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/bin/qti:$(TARGET_COPY_OUT_VENDOR)/bin/qti \
     vendor/lge/g4-common/proprietary/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon \
     vendor/lge/g4-common/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
+    vendor/lge/g4-common/proprietary/vendor/bin/hw/android.hardware.sensors@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@1.0-service
     vendor/lge/g4-common/proprietary/vendor/bin/hw/android.hardware.oemlock@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.oemlock@1.0-service \
     vendor/lge/g4-common/proprietary/vendor/bin/hw/android.hardware.wifi.offload@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi.offload@1.0-service \
+    vendor/lge/g4-common/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@1.0-service.rc
     vendor/lge/g4-common/proprietary/vendor/firmware/libpn547_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn547_fw.so \
     vendor/lge/g4-common/proprietary/vendor/firmware/libpn547_fw_22.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn547_fw_22.so \
     vendor/lge/g4-common/proprietary/vendor/firmware/libpn547_fw_C9.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn547_fw_C9.so \
+   vendor/lge/g4-common/proprietary/vendor/lib/hw/android.hardware.sensors@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.sensors@1.0-impl.so
     vendor/lge/g4-common/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.quicinc.cne.api@1.0.so \
     vendor/lge/g4-common/proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.quicinc.cne.constants@1.0.so \
     vendor/lge/g4-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/drm/libdrmwvmplugin.so \
@@ -615,6 +618,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/hw/activity_recognition.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.msm8992.so \
+    vendor/lge/g4-common/proprietary/vendor/lib64/hw/android.hardware.sensors@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.sensors@1.0-impl.so
     vendor/lge/g4-common/proprietary/vendor/lib64/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/flp.default.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/hw/gatekeeper.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8992.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/hw/gps.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.msm8992.so \
