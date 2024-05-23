@@ -18,13 +18,15 @@ cc_prebuilt_library_shared {
     owner: "lge",
     multilib: {
         lib64: {
-            srcs: ["proprietary/lib64/libcir_driver.so"],
+            srcs: ["proprietary/vendor/lib64/libcir_driver.so"],
         },
         lib32: {
-            srcs: ["proprietary/lib/libcir_driver.so"],
+            srcs: ["proprietary/vendor/lib/libcir_driver.so"],
         },
     },
     compile_multilib: "both",
+    proprietary: true,
+
 }
 
 cc_prebuilt_library_shared {
