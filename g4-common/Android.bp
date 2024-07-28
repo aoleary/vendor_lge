@@ -34,7 +34,7 @@ cc_prebuilt_library_shared {
     owner: "lge",
     multilib: {
         lib64: {
-            srcs: ["proprietary/lib64/libloc_api_v02.so"],
+            srcs: ["proprietary//lib64/libloc_api_v02.so"],
         },
         lib32: {
             srcs: ["proprietary/lib/libloc_api_v02.so"],
@@ -48,10 +48,10 @@ cc_prebuilt_library_shared {
     owner: "lge",
     multilib: {
         lib64: {
-            srcs: ["proprietary/lib64/libloc_ds_api.so"],
+            srcs: ["proprietary//lib64/libloc_ds_api.so"],
         },
         lib32: {
-            srcs: ["proprietary/lib/libloc_ds_api.so"],
+            srcs: ["proprietary//lib/libloc_ds_api.so"],
         },
     },
     compile_multilib: "both",
